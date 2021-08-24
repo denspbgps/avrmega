@@ -19,7 +19,7 @@ void loop() {
    digitalWrite(47, LOW);
     digitalWrite(48, HIGH);
     delay (500);
-
+   // delay (500);
   
   if (Serial.available() > 0) {
     String bufString = Serial.readString();       // читаем как строку
