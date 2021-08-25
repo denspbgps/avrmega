@@ -43,7 +43,7 @@ void loop() {
     Serial.print("PWM(1)= ");
     myOLED.print("PWM(1)= ", 0, 0);// вывод на олед дисплей PWM_1
     Serial.println(val_1);  // проверка
-    myOLED.print(val_1, 44, 0);  
+    myOLED.print(val_1, 44, 0);  вывод значения PWM
     Serial.print("PWM(2)= ");
     Serial.println(val_2);  // ...
     //Serial.println(val_1, 5);  // вывод с 5 знаками после запятой
