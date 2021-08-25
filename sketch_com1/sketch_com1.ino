@@ -41,7 +41,7 @@ void loop() {
     float val_2 = buf_2.toFloat();    // ...
     myOLED.clrScr();
     Serial.print("PWM(1)= ");
-    myOLED.print("PWM(1)= ", 0, 0);
+    myOLED.print("PWM(1)= ", 0, 0);// вывод на олед дисплей PWM_1
     Serial.println(val_1);  // проверка
     myOLED.print(val_1, 44, 0);  
     Serial.print("PWM(2)= ");
